@@ -194,9 +194,8 @@
 .feynman__title {
   width: 775px;
   text-align: center;
-  font-weight: 1.15;
   font-size: 120px;
-  font-weight: bold;
+  font-weight: 1.15 bold;
 }
 .feynman__subtitle {
   margin-top: 70px;
