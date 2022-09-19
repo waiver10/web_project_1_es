@@ -105,7 +105,7 @@
   min-width: 784px;
   display: flex;
   flex-direction: column;
-  border-spacing: 0px 30px
+  border-spacing: 0px 30px;
 }
 
 .two-columns__paragraph {
