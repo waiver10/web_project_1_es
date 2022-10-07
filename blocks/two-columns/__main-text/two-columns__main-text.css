@@ -1,0 +1,8 @@
+.two-columns__main-text {
+  width: 80%;
+  min-width: 784px;
+  display: flex;
+  flex-direction: column;
+  border-spacing: 0px 30px;
+  grid-row-gap: 30px;
+}

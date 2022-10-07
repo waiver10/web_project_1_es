@@ -3,41 +3,36 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./pages/index.css" />
     <title>Aprender a aprender</title>
-    <link rel="stylesheet" href="./styles/normalize.css" />
-    <link rel="stylesheet" href="./styles/style.css" />
   </head>
   <body>
-    <div class="page">
+    <main class="page">
       <header class="header">
         <img
           src="./images/logo_place_header.png"
-          alt="Logo de practicum"
-          class="logo logo logo_place_header"
+          alt="logo de Practicum"
+          class="logo logo_place-header"
         />
         <h1 class="header__title">Aprender a aprender</h1>
         <p class="header__subtitle">
           Las técnicas de aprendizaje más eficaces y avanzadas que puedes
           aplicar en tu vida diaria
-          <a href="#" class="header__link"> Más información →</a>
+          <a href="#" class="page__link header__link">Más información</a>
         </p>
         <img
           src="./images/header-image.png"
-          alt="El ponderador épico se paró en la cima de
-         una montaña a deliberar sobre los puntos más delicados del sistema educativo
-          moderno, mientras también se preguntaba de dónde vino ese cuadrado azul"
+          alt="coder at the top of a mountain"
           class="header__main-illustration"
         />
-        <div class="header__square"></div>
+        <div class="header__square rotation"></div>
       </header>
-
-      <main class="content">
+      <div class="content">
         <section class="description">
           <div class="two-columns">
             <h2 class="two-columns__brief">
               El principal problema de la educación
             </h2>
-
             <div class="two-columns__main-text">
               <p class="two-columns__paragraph">
                 Ya sea en la escuela o en la universidad, lo único que nadie te
@@ -59,7 +54,6 @@
                 punto a menudo se pasa por alto. Entonces, ¿qué podemos hacer
                 para remediarlo?
               </p>
-              
               <p class="two-columns__paragraph">
                 Bien, hay varias técnicas y ejercicios que pueden aplicarse al
                 proceso educativo para ayudar a hacerlo más eficiente y
@@ -68,6 +62,128 @@
               </p>
             </div>
           </div>
+        </section>
+
+        <section class="techniques">
+          <h2 class="section-title">Técnicas de aprendizaje</h2>
+          <h3 class="section-subtitle">Cinco estrategias por Barbara Oakley</h3>
+          <div class="cards">
+            <div class="cards__item">
+              <img
+                src="./images/cards-attention.png"
+                class="cards__image"
+                alt="Libro con portada 101 essays that will change the way you think"
+              />
+              <h2 class="cards__title">Piensa de dos maneras distintas</h2>
+              <p class="cards__description">
+                Un profundo conocimiento se puede lograr alternando libremente
+                entre el pensamiento concentrado y el difuso.
+              </p>
+            </div>
+            <div class="cards__item">
+              <img
+                src="./images/cards-recall.png"
+                class="cards__image"
+                alt="Estatua en pose de pensamiento profundo"
+              />
+              <h2 class="cards__title">Usa el recuerdo</h2>
+              <p class="cards__description">
+                Mejorar tu capacidad de recordar piezas clave de información
+                ayuda a conectar diferentes áreas del cerebro.
+              </p>
+            </div>
+            <div class="cards__item">
+              <img
+                src="./images/cards-interleaving.png"
+                class="cards__image"
+                alt="Espacio abierto"
+              />
+              <h2 class="cards__title">Alterna</h2>
+              <p class="cards__description">
+                Cuando aprendes múltiples habilidades al mismo tiempo, estas se
+                refuerzan mutuamente.
+              </p>
+            </div>
+            <div class="cards__item">
+              <img
+                src="./images/cards-question.png"
+                class="cards__image"
+                alt="Hombre en un espacio abierto"
+              />
+              <h2 class="cards__title">Haz preguntas</h2>
+              <p class="cards__description">
+                Cuando escuches a tu profesor, piensa en una buena pregunta, en
+                algo que realmente te intrigue.
+              </p>
+            </div>
+            <div class="cards__item">
+              <img
+                src="./images/cards-competence.png"
+                class="cards__image"
+                alt="Múltiples libros en una mano"
+              />
+              <h2 class="cards__title">Crea la ilusión de competencia</h2>
+              <p class="cards__description">
+                Ponte a prueba, apunta tu resultado, cuéntaselo a otras personas
+                y repite el proceso con diferentes configuraciones. Solo
+                entonces podrás estar seguro de haber comprendido algo.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section class="video">
+          <h2 class="section-title">Charlas TED</h2>
+          <h3 class="section-subtitle">
+            Para los amantes de la procrastinación
+          </h3>
+          <div class="video__iframes">
+            <iframe
+              class="video__iframe"
+              src="https://www.youtube.com/embed/5MgBikgcWnY"
+              allowfullscreen=""
+            ></iframe>
+            <iframe
+              class="video__iframe"
+              src="https://www.youtube.com/embed/arj7oStGLkU"
+              allowfullscreen=""
+            ></iframe>
+          </div>
+        </section>
+
+        <section class="oakley">
+          <div class="two-columns">
+            <h2 class="two-columns__brief">La historia de Barbara Oakley.</h2>
+            <div class="two-columns__main-text">
+              <p class="two-columns__paragraph">
+                Durante la infancia de Barbara, las matemáticas no le surgieron
+                de forma innata. Pensaba que era una persona más orientada a las
+                humanidades, y no precisamente brillante. En vistas a
+                convertirse en lingüista, después de terminar el instituto se
+                alistó en el ejército, donde la mandaron a aprender ruso. Tras
+                varios años de servicio, durante los cuales ascendió al rango de
+                capitán, Barbara dejó el ejército y decidió estudiar ingeniería.
+                Fue en este momento cuando desarrolló su metodología de
+                aprendizaje, porque se vio obligada a reprogramar su cerebro
+                para un tipo de aprendizaje distinto. Resulta que cuando algo no
+                te sale de forma natural, el hecho de tener que trabajar duro
+                para obtener conocimientos, que otras personas pueden captar a
+                la primera, te da un conocimiento más profundo y completo del
+                tema en cuestión.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section class="feynman">
+          <img
+            class="feynman__image"
+            src="./images/feynman.png"
+            alt="Feynman"
+          />
+          <h2 class="feynman__title">La técnica Feynman</h2>
+          <h3 class="feynman__subtitle">Aprender sin olvidar</h3>
+          <a href="#" class="page__link feynman__link">Más</a>
         </section>
 
         <section class="digits">
@@ -86,7 +202,7 @@
                 Porcentaje de adultos en EE. UU. que se consideran alumnos de
                 por vida
               </p>
-              <p class="table__text">Pew Research Center</p>
+              <p>Pew Research Center</p>
             </li>
             <li class="table__cell">
               <h4 class="table__heading">1000 terabytes</h4>
@@ -107,7 +223,7 @@
                 El número de adultos menores de 25 años con una educación
                 insuficiente para encontrar empleo.
               </p>
-              <p class="table__text">Banco Mundial, 2017</p>
+              <p>Banco Mundial, 2017</p>
             </li>
             <li class="table__cell">
               <h4 class="table__heading">26 años</h4>
@@ -121,7 +237,7 @@
               <p class="table__text">Desarrollo de la curva del olvido</p>
             </li>
             <li class="table__cell">
-              <h4 class="table__heading">1897</h4>
+              <p class="table__heading">1897</p>
               <p class="table__text">
                 Publicación de las investigaciones de Ivan Pavlov sobre el
                 condicionamiento clásico
@@ -129,134 +245,172 @@
             </li>
           </ul>
         </section>
-        <section class="feynman">
-          <h2 class="feynman__title">La técnica Feynman</h2>
-          <h3 class="feynman__subtitle">Aprender sin olvidar</h3>
-          <a href="#" class="feynman__link">Más →</a>
-          <img
-            src="./images/feynman.png"
-            alt="Una imagen de Richard Feynman,físico cuántico de fama mundial.La Técnica Feynman se deriva de sus métodos de estudio cuando era un estudiante en Princenton"
-            class="feynman__image"
-          />
+
+        <section class="khan">
+          <div class="khan__container">
+            <h3 class="khan__author">Salman Khan</h3>
+            <h2 class="khan__title">La escuela del mundo</h2>
+            <p class="khan__quote">
+              La pasión e innovación de Sal Khan están transformando el
+              aprendizaje de millones de estudiantes de todo el mundo. "La
+              escuela del mundo" es una lectura obligatoria para todos aquellos
+              que estén comprometidos a mejorar la educación y quieran que
+              estudiantes de todos los rincones del mundo adquieran las
+              habilidades y conocimientos necesarios para tener éxito académico,
+              profesional y en la vida en general.
+            </p>
+            <p class="khan__quote-author">George Lucas</p>
+            <p class="khan__quote-author-subline">Director de cine</p>
+            <div class="khan__book-container">
+              <div class="khan__book-pic"></div>
+              <a href="#" class="khan__buy-link page__link">Comprar libro</a>
+            </div>
+          </div>
         </section>
+
         <section class="kaufman">
+          <img
+            src="./images/kaufman-triangle.svg"
+            class="kaufman__triangle rotation"
+            alt="Un gran triángulo azul, sobre el que Josh Kaufman reclama la propiedad"
+          />
           <h2 class="section-title section-title_theme_dark">
             Diez principios para adquirir habilidades rápidamente
           </h2>
-          <h3 class="section-subtitle section-subtitle_theme_dark">
-            por Josh Kaufman
-          </h3>
-          <img
-            src="./images/kaufman-triangle.svg"
-            alt="Un gran triángulo azul,sobre el que Josh Kaufman reclama la propiedad"
-            class="kaufman__triangle"
-          />
-          <ul class="table table_theme_dark">
-            <li class="table__cell table__cell_theme_dark">
-              <h4 class="table__heading table__heading_theme_dark">1</h4>
-              <p class="table__text table__text_theme_dark">
-                Elegir un proyecto atractivo
-              </p>
+          <p class="section-subtitle section-subtitle_theme_dark">
+            by Josh Kaufman
+          </p>
+          <ul class="table table_theme-dark">
+            <li class="table__cell-dark">
+              <div class="table__heading">1</div>
+              <div class="table__text">Elegir un proyecto atractivo</div>
             </li>
-            <li class="table__cell table__cell_theme_dark">
-              <h4 class="table__heading table__heading_theme_dark">2</h4>
-              <p class="table__text table__text_theme_dark">
+            <li class="table__cell-dark">
+              <div class="table__heading">2</div>
+              <div class="table__text">
                 Enfocar tu energía en una habilidad a la vez
-              </p>
+              </div>
             </li>
-            <li class="table__cell table__cell_theme_dark">
-              <h4 class="table__heading table__heading_theme_dark">3</h4>
-              <p class="table__text table__text_theme_dark">
-                Definir tu nivel de desempeño
-              </p>
+            <li class="table__cell-dark">
+              <div class="table__heading">3</div>
+              <div class="table__text">Definir tu nivel de desempeño</div>
             </li>
-            <li class="table__cell table__cell_theme_dark">
-              <h4 class="table__heading table__heading_theme_dark">4</h4>
-              <p class="table__text table__text_theme_dark">
+            <li class="table__cell-dark">
+              <div class="table__heading">4</div>
+              <div class="table__text">
                 Deconstruir la habilidad en sub-habilidades
-              </p>
+              </div>
             </li>
-            <li class="table__cell table__cell_theme_dark">
-              <h4 class="table__heading table__heading_theme_dark">5</h4>
-              <p class="table__text table__text_theme_dark">
-                Obtener herramientas críticas
-              </p>
+            <li class="table__cell-dark">
+              <div class="table__heading">5</div>
+              <div class="table__text">Obtener herramientas críticas</div>
             </li>
-            <li class="table__cell table__cell_theme_dark">
-              <h4 class="table__heading table__heading_theme_dark">6</h4>
-              <p class="table__text table__text_theme_dark">
+            <li class="table__cell-dark">
+              <div class="table__heading">6</div>
+              <div class="table__text">
                 Eliminar los obstáculos que impiden la práctica
-              </p>
+              </div>
             </li>
-            <li class="table__cell table__cell_theme_dark">
-              <h4 class="table__heading table__heading_theme_dark">7</h4>
-              <p class="table__text table__text_theme_dark">
-                Dedicar tiempo a la práctica
-              </p>
+            <li class="table__cell-dark">
+              <div class="table__heading">7</div>
+              <div class="table__text">Dedicar tiempo a la práctica</div>
             </li>
-            <li class="table__cell table__cell_theme_dark">
-              <h4 class="table__heading table__heading_theme_dark">8</h4>
-              <p class="table__text table__text_theme_dark">
+            <li class="table__cell-dark">
+              <div class="table__heading">8</div>
+              <div class="table__text">
                 Crear bucles de retroalimentación rápidos
-              </p>
+              </div>
             </li>
-            <li class="table__cell table__cell_theme_dark">
-              <h4 class="table__heading table__heading_theme_dark">9</h4>
-              <p class="table__text table__text_theme_dark">
+            <li class="table__cell-dark">
+              <div class="table__heading">9</div>
+              <div class="table__text">
                 Practicar en breves intervalos con un reloj
-              </p>
+              </div>
             </li>
-            <li class="table__cell table__cell_theme_dark">
-              <h4 class="table__heading table__heading_theme_dark">10</h4>
-              <p class="table__text table__text_theme_dark">
+            <li class="table__cell-dark">
+              <div class="table__heading">10</div>
+              <div class="table__text">
                 Enfatizar la cantidad y la velocidad
-              </p>
+              </div>
             </li>
           </ul>
         </section>
-      </main>
 
+        <section class="resources">
+          <h2 class="section-title">Recursos útiles</h2>
+          <p class="section-subtitle">
+            Más materiales sobre técnicas y trucos de aprendizaje.
+          </p>
+          <div class="resources__logo-zone">
+            <img
+              class="resources__logo"
+              alt="logo tedED"
+              src="./images/logo/resources-tedED.png"
+            />
+            <img
+              class="resources__logo"
+              alt="logo Medium"
+              src="./images/logo/resources-Medium.png"
+            />
+            <img
+              class="resources__logo"
+              alt="logo dezeen"
+              src="./images/logo/resources-dezeen.png"
+            />
+            <img
+              class="resources__logo"
+              alt="logo goodreads"
+              src="./images/logo/resources-goodreads.png"
+            />
+          </div>
+        </section>
+      </div>
       <footer class="footer">
         <div class="footer__columns">
-          <div class="footer__column footer__column_content_copyright">
+          <div class="footer__column-copyright">
             <img
               src="./images/logo_place_footer.png"
-              alt="Logo de practicum"
-              class="logo logo_place_footer"
+              class="logo logo_place-footer"
+              alt="logo"
             />
-            <p class="footer__author">©2022 Luis Aaron Mejia Gonzalez</p>
+            <p class="footer__author">© 2022 Luis Aaron Mejia Gonzalez</p>
           </div>
-
-          <div class="footer__column footer__column_content_about">
-            <h1 class="footer__column-heading">Acerca de Practicum de Yandex</h1>
+          <div class="footer__column-about">
+            <p class="footer__column-heading">Acerca de Practicum de Yandex</p>
             <ul class="footer__list">
-              <li class="footer__column-link">Página principal</li>
-              <li class="footer__column-link">Misión</li>
-              <li class="footer__column-link">Profesiones</li>
+              <li class="footer__column-link">
+                <a href="#" class="footer__link page__link">Página principal</a>
+              </li>
+              <li class="footer__column-link">
+                <a href="#" class="footer__link page__link">Misión</a>
+              </li>
+              <li class="footer__column-link">
+                <a href="#" class="footer__link page__link">Profesiones</a>
+              </li>
             </ul>
           </div>
-
-          <div class="footer__column footer__column_content_social">
-            <h1 class="footer__column-heading">Redes sociales</h1>
-            <a class="footer__column-link">
-              <img
-                src="./images/facebook_white.svg"
-                alt="Logo de Facebook"
-                class="footer__social-icon"
-              />
-              Facebook
-            </a>
-            <a class="footer__column-link">
-              <img
-                src="./images/instagram_white.svg"
-                alt="Logo de Instagram"
-                class="footer__social-icon"
-              />
-              Instagram
-            </a>
+          <div class="footer__column-social">
+            <p class="footer__column-heading">Redes sociales</p>
+            <ul class="footer__list">
+              <li class="footer__column-link">
+                <img
+                  src="./images/facebook_white.svg"
+                  class="footer__social-icons"
+                  alt="facebook logo"
+                /><a href="#" class="footer__link page__link">Facebook</a>
+              </li>
+              <li class="footer__column-link">
+                <img
+                  src="./images/instagram_white.svg"
+                  class="footer__social-icons"
+                  alt="instagram logo"
+                /><a href="#" class="footer__link page__link">Instagram</a>
+              </li>
+            </ul>
           </div>
         </div>
       </footer>
-    </div>
+    </main>
   </body>
 </html>
+
